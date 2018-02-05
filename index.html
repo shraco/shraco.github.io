@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Color and Flower</title>
+	<link href="https://fonts.googleapis.com/css?family=Dosis|Itim|Lobster" rel="stylesheet"> 
+</head>
+<body bgcolor="#A8FBF8">
+	<style type="text/css">
+	#Name{
+		font-family: Lobster;
+		color: #9B73D6;
+		font-size: 50px;
+		text-shadow: 2px 2px #673FA1;
+		text-align: center;
+	}
+	.buttonBlock{
+		text-align: center;
+	}
+	.Question{
+		font-size: 25px;
+		font-family: Itim;
+		color: #1256E7;
+	}
+	button {
+		display: inline-block;
+		padding: 15px 50px;
+		font-size: 18px;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		outline: none;
+		color: #fff;
+		background-color: #8EB0F9;
+		border: none;
+		border-radius: 15px;
+		box-shadow: 0 5px #999;
+	}
+	#time{
+		font-family: Dosis;
+		font-size: 25px;
+
+	}
+	.TimeUse{
+		font-family: Itim;
+		font-size: 25px;
+		color: #1256E7;
+
+	}
+	.Score{
+		font-family: Itim;
+		font-size: 25px;
+		color: #1256E7;
+
+	}
+
+	button:hover {background-color: #F59FB6}
+
+	button:active {
+	  background-color: #F59FB6;
+	  box-shadow: 0 5px #666;
+	  transform: translateY(4px);
+	}
+	</style>
+	<div id="Name">Color and Flower</div><br><br>
+	<div class="buttonBlock">	
+		<div id="text" class="Question">เลือกจำนวนข้อ</div><br><br>
+		<button class="ten" onclick="randomQuestion(10)" style="margin-right: 10%;">
+			10 ข้อ
+		</button>
+		<button class="twenty" onclick="randomQuestion(20)">
+			20 ข้อ
+		</button>
+		<div id="time"></div><br>
+		<div class="Question"></div><br><br>
+		<button class="bt1" id="addPic1" onclick="clickbt(1)">
+			<div class="output" style="text-align: center;">
+				test<br>
+			</div>
+		</button>
+		<button class="bt2" id="addPic2" onclick="clickbt(2)">
+
+			<div class="output" style="text-align: center;">
+				test
+			</div>
+		</button>
+			<button class="bt3" id="addPic3" onclick="clickbt(3)">
+			<div class="output" style="text-align: center;">
+				test
+			</div>
+		</button>
+			<button class="bt4" id="addPic4" onclick="clickbt(4)">
+			<div class="output" style="text-align: center;">
+				test
+			</div>
+		</button>
+		<div class="Score" ></div>
+		<div class="TimeUse" ></div>
+	</div>
+
+	<script src="jquery-3.3.1.min.js" charset="utf-8"></script>
+	<script>
+		var arr = [];
+		var score = 0;
+		var count = 0;
+		var timeUse = 0;
+		var counter = 10;
+		var qamount = 0;
+		var check = false;
+		var gameStart = false;
+		var interval = setInterval(function() {
+    		counter = counter-1;
+    		timeUse++;
+    		$('#time').html(counter);
+    		if (counter == 0 && gameStart == true) {
+
+        		counter =10;
+        		if(count < qamount-1){
+        			start();
+        			count++;
+        		}
+        		else{
+        			gameStart = false;
+					check = false;
+					$('.Question').hide();
+					$('.bt1').hide();
+		    		$('.bt2').hide();
+		    		$('.bt3').hide();
+		    		$('.bt4').hide();
+		    		$('#time').hide();
+					$('.Score').html(score+" คะแนน");
+					$('.TimeUse').html("เวลาที่ใช้ : "+timeUse + " วินาที");
+        		}
+        		
+    		}else if(check == true){
+    			check = false;
+    			counter =10;
+
+    		}else if(gameStart == false){
+    			counter = 10;
+    		}
+		}, 1000);
+		function randomQuestion(q){
+			qamount = q;
+			while(arr.length < q){
+    			var randomnumber = Math.floor(Math.random()*30);
+    			if(arr.indexOf(randomnumber) > -1) continue;
+    				arr[arr.length] = randomnumber;
+    			}				
+    		$('.bt1').show();
+    		$('.bt2').show();
+			$('.bt3').show();
+			$('.bt4').show();
+			$('.ten').hide();
+			$('.twenty').hide();
+			$('#text').hide();
+			gameStart = true;
+    		start();
+				
+    	};
+    	function start(){
+    		$.ajax({
+				url: 'data.json',
+				method: 'GET',
+				dataType: 'json',
+				success: function(response){
+					$('.ten').hide();
+					$('.twenty').hide();
+					$('#time').show();
+					$('.Question').html(response[arr[count]]['question'])
+					$('.bt1').html(response[arr[count]]['choice']['1']);
+    				$('.bt2').html(response[arr[count]]['choice']['2']);
+    				$('.bt3').html(response[arr[count]]['choice']['3']);
+    				$('.bt4').html(response[arr[count]]['choice']['4']);
+    				$('#addPic1')
+    				.append("<br>"+"<img height="+"100"+" src="+response[arr[count]]['pic']['1']+" width="+"150"+ "/>");
+    				$('#addPic2')
+    				.append("<br>"+"<img height="+"100"+" src="+response[arr[count]]['pic']['2']+" width="+"150"+ "/>");
+    				$('#addPic3')
+    				.append("<br>"+"<img height="+"100"+" src="+response[arr[count]]['pic']['3']+" width="+"150"+ "/>");
+    				$('#addPic4')
+    				.append("<br>"+"<img height="+"100"+" src="+response[arr[count]]['pic']['4']+" width="+"150"+ "/>");
+
+
+    			}
+    		
+			});
+    	}
+
+		$(document).ready(
+				function(){
+					$.ajax({
+						url: 'data.json',
+						method: 'GET',
+						dataType: 'json',
+						success: function(response){
+		    				$('.bt1').hide();
+		    				$('.bt2').hide();
+		    				$('.bt3').hide();
+		    				$('.bt4').hide();
+		    				$('#time').hide();
+						}				
+					});
+				})
+		function clickbt(ans){
+			$.ajax({
+				url: 'data.json',
+				method: 'GET',
+				dataType: 'json',
+				success: function(response){
+						check=true;
+						if(response[arr[count]]['correct'] == ans){
+
+							score += 1;
+						}
+						
+						if(count != arr.length-1){
+							start();
+						}else if(count == arr.length-1){
+							gameStart = false;
+							check = false;
+							$('.Question').hide();
+							$('.bt1').hide();
+		    				$('.bt2').hide();
+		    				$('.bt3').hide();
+		    				$('.bt4').hide();
+		    				$('#time').hide();
+							$('.Score').html(score+" คะแนน");
+							$('.TimeUse').html("เวลาที่ใช้ : "+timeUse + " วินาที");
+						}
+						count += 1;
+				}
+			});
+		}
+		
+	</script>
+</body>
+</html>
