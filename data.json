@@ -1,0 +1,301 @@
+[{
+	"id" : "0",
+	"question" : "สีใดที่เป็นสีแห่งความเร่งเรียบ ร้อนอยู่เฉยไม่ได้ ใช้กระตุ้นการกระทำได้ดี",
+	"choice": {"1" : "สีแดง","2" : "สีน้ำเงิน", "3": "สีเขียว" ,"4":"สีเหลือง"},
+	"correct" : "1",
+	"pic" : {"1" : "https://www.colorcombos.com/images/colors/FF0000.png",
+			"2" : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/IKB_191.jpg/220px-IKB_191.jpg", 
+			"3": "https://www.colorcombos.com/images/colors/00FF00.png" ,
+			"4":"http://www.stinkyurine.com/wp-content/uploads/2016/04/Yellow-Urine-1.jpg"}
+},
+{
+	"id" : "1",
+	"question" : "สีใดที่เป็นสีกลางๆ ใช้ได้ทั้งเด็ก ผู้ใหญ่ คนชรา ทุกเพศทุกวัย",
+	"choice": {"1" : "สีแดง","2" : "สีน้ำเงิน", "3": "สีเขียว" ,"4":"สีเหลือง"},
+	"correct" : "2",
+	"pic" : {"1" : "https://www.colorcombos.com/images/colors/FF0000.png",
+			"2" : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/IKB_191.jpg/220px-IKB_191.jpg", 
+			"3": "https://www.colorcombos.com/images/colors/00FF00.png" ,
+			"4":"http://www.stinkyurine.com/wp-content/uploads/2016/04/Yellow-Urine-1.jpg"}
+},
+{
+	"id" : "2",
+	"question" : "สีใดที่เป็นสีที่ทำให้รู้สึกสบายๆ เย็นๆ ดูเชื่อถือได้ ไม่หลอกลวง มักใช้ในการสื่อสารที่มีกลุ่มคนมากๆ",
+	"choice": {"1" : "สีแดง","2" : "สีน้ำเงิน", "3": "สีเขียว" ,"4":"สีเหลือง"},
+	"correct" : "2",
+	"pic" : {"1" : "https://www.colorcombos.com/images/colors/FF0000.png",
+			"2" : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/IKB_191.jpg/220px-IKB_191.jpg", 
+			"3": "https://www.colorcombos.com/images/colors/00FF00.png" ,
+			"4":"http://www.stinkyurine.com/wp-content/uploads/2016/04/Yellow-Urine-1.jpg"}
+},
+{
+	"id" : "3",
+	"question" : "สีใดที่เป็นสีเกี่ยวข้องกับสุขภาพ โดยมากใช้ในงานที่ต้องการสื่อสารเกี่ยวกับด้านสภาพแวดล้อม ฟิตเนส สุขภาพ",
+	"choice": {"1" : "สีแดง","2" : "สีน้ำเงิน", "3": "สีเขียว" ,"4":"สีเหลือง"},
+	"correct" : "3",
+	"pic" : {"1" : "https://www.colorcombos.com/images/colors/FF0000.png",
+			"2" : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/IKB_191.jpg/220px-IKB_191.jpg", 
+			"3": "https://www.colorcombos.com/images/colors/00FF00.png" ,
+			"4":"http://www.stinkyurine.com/wp-content/uploads/2016/04/Yellow-Urine-1.jpg"}
+},
+{
+	"id" : "4",
+	"question" : "สีใดที่เป็นสีที่หมายถึงสิ่งที่เป็นแง่บวก ให้ความรู้สึกที่ลื่นไหล ไม่ติดขัด เป็นตัวแทนของ “กำไร”",
+	"choice": {"1" : "สีแดง","2" : "สีน้ำเงิน", "3": "สีเขียว" ,"4":"สีเหลือง"},
+	"correct" : "3",
+	"pic" : {"1" : "https://www.colorcombos.com/images/colors/FF0000.png",
+			"2" : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/IKB_191.jpg/220px-IKB_191.jpg", 
+			"3": "https://www.colorcombos.com/images/colors/00FF00.png" ,
+			"4":"http://www.stinkyurine.com/wp-content/uploads/2016/04/Yellow-Urine-1.jpg"}
+},
+{
+	"id" : "5",
+	"question" : "สีใดที่เป็นได้ทั้งสีโทนร้อน และสีโทนเย็น",
+	"choice": {"1" : "สีม่วง","2" : "สีส้ม", "3": "สีเหลือง" ,"4":"สีชมพู"},
+	"correct" : "1",
+	"pic" : {"1" : "https://www.colorcombos.com/images/colors/BA68C8.png",
+			"2" : "https://www.colorcombos.com/images/colors/FF9900.png", 
+			"3": "http://www.stinkyurine.com/wp-content/uploads/2016/04/Yellow-Urine-1.jpg" ,
+			"4":"https://www.colorcombos.com/images/colors/FFA6C9.png"}
+},
+{
+	"id" : "6",
+	"question" : "สีใดเป็นสีที่ให้ความรู้สึกถึงความหรูหรา มีพลัง อำนาจ",
+	"choice": {"1" : "สีม่วง","2" : "สีส้ม", "3": "สีเหลือง" ,"4":"สีชมพู"},
+	"correct" : "1",
+	"pic" : {"1" : "https://www.colorcombos.com/images/colors/BA68C8.png",
+			"2" : "https://www.colorcombos.com/images/colors/FF9900.png", 
+			"3": "http://www.stinkyurine.com/wp-content/uploads/2016/04/Yellow-Urine-1.jpg" ,
+			"4":"https://www.colorcombos.com/images/colors/FFA6C9.png"}
+},
+{
+	"id" : "7",
+	"question" : "สีใดให้ความรู้สึกเป็นกันเอง สนุกสนาน มั่นใจ และยังสามารถใช้เพื่อเรียกร้องความสนใจได้",
+	"choice": {"1" : "สีม่วง","2" : "สีส้ม", "3": "สีเหลือง" ,"4":"สีชมพู"},
+	"correct" : "2",
+	"pic" : {"1" : "https://www.colorcombos.com/images/colors/BA68C8.png",
+			"2" : "https://www.colorcombos.com/images/colors/FF9900.png", 
+			"3": "http://www.stinkyurine.com/wp-content/uploads/2016/04/Yellow-Urine-1.jpg" ,
+			"4":"https://www.colorcombos.com/images/colors/FFA6C9.png"}
+},
+{
+	"id" : "8",
+	"question" : "สีใดที่หมายถึงความมีพลัง การมองโลกในแง่ดี สะท้องถึงความสุข ความสนุกสนาน แฝงความเป็นเด็ก การไม่หยุดนิ่ง",
+	"choice": {"1" : "สีม่วง","2" : "สีส้ม", "3": "สีเหลือง" ,"4":"สีชมพู"},
+	"correct" : "3",
+	"pic" : {"1" : "https://www.colorcombos.com/images/colors/BA68C8.png",
+			"2" : "https://www.colorcombos.com/images/colors/FF9900.png", 
+			"3": "http://www.stinkyurine.com/wp-content/uploads/2016/04/Yellow-Urine-1.jpg" ,
+			"4":"https://www.colorcombos.com/images/colors/FFA6C9.png"}
+},
+{
+	"id" : "9",
+	"question" : "สีใดที่เป็นสัญลักษณ์เพื่อเตือน เพื่อให้ระวัง",
+	"choice": {"1" : "สีม่วง","2" : "สีส้ม", "3": "สีเหลือง" ,"4":"สีชมพู"},
+	"correct" : "3",
+	"pic" : {"1" : "https://www.colorcombos.com/images/colors/BA68C8.png",
+			"2" : "https://www.colorcombos.com/images/colors/FF9900.png", 
+			"3": "http://www.stinkyurine.com/wp-content/uploads/2016/04/Yellow-Urine-1.jpg" ,
+			"4":"https://www.colorcombos.com/images/colors/FFA6C9.png"}
+},
+{
+	"id" : "10",
+	"question" : "สีใดเป็นสีใช้เป็นตัวแทนของความสุข ความอิ่มเอม",
+	"choice": {"1" : "สีม่วง","2" : "สีส้ม", "3": "สีเหลือง" ,"4":"สีชมพู"},
+	"correct" : "4",
+	"pic" : {"1" : "https://www.colorcombos.com/images/colors/BA68C8.png",
+			"2" : "https://www.colorcombos.com/images/colors/FF9900.png", 
+			"3": "http://www.stinkyurine.com/wp-content/uploads/2016/04/Yellow-Urine-1.jpg" ,
+			"4":"https://www.colorcombos.com/images/colors/FFA6C9.png"}
+},
+{
+	"id" : "11",
+	"question" : "สีใดเป็นสีแห่งความสงบนิ่ง เฉย เป็นจริงเป็นจัง มีพลังของความแข็งแกร่ง",
+	"choice": {"1" : "สีขาว","2" : "สีเทา", "3": "สีน้ำเงิน" ,"4":"สีดำ"},
+	"correct" : "4",
+	"pic" : {"1" : "https://www.colorcombos.com/images/colors/FFFFFF.png",
+			"2" : "https://www.colorcombos.com/images/colors/CECFCE.png", 
+			"3": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/IKB_191.jpg/220px-IKB_191.jpg" ,
+			"4":"https://www.colorcombos.com/images/colors/010101.png"}
+},
+{
+	"id" : "12",
+	"question" : "กล้วยไม้สีอะไรที่เป็นความรู้สึกสดใส สร้างความพึงพอใจ และความสร้างสรรค์ เหมาะสำหรับแต่งบ้านของคู่รักคู่แต่งงาน",
+	"choice": {"1" : "ชมพู และส้ม","2" : "ชมพู และแดง", "3": "แดง และส้ม" ,"4":"แดง และม่วง"},
+	"correct" : "1",
+	"pic" : {"1" : "https://www.nanagarden.com/Picture/Product/400/241714.jpg",
+			"2" : "http://oknation.nationtv.tv/blog/home/blog_data/865/865/images/mok/7250021.jpg", 
+			"3": "https://www.bloggang.com/data/rojin/picture/1212284599.jpg" ,
+			"4":"https://cdn.pixabay.com/photo/2017/06/20/11/18/orchid-2422644_960_720.jpg"}
+},
+{
+	"id" : "13",
+	"question" : "กล้วยไม้สีอะไรให้ความกระจ่าง สงบ สันติ เหมาะสำหรับคนที่มีความหวัง สถานที่ทำงาน",
+	"choice": {"1" : "ม่วง","2" : "เหลือง", "3": "ขาว" ,"4":"ชมพู"},
+	"correct" : "3",
+	"pic" : {"1" : "http://i.kapook.com/faiiya/28-2-54/vio10.jpg",
+			"2" : "https://cdn.pixabay.com/photo/2015/12/03/17/27/orchid-1075327_960_720.jpg", 
+			"3": "https://www.bloggang.com/data/rojin/picture/1178340713.jpg" ,
+			"4":"https://sites.google.com/a/rk.ac.th/klwymi-na-chnid-real/_/rsrc/1453993679496/3-klwymi-hway-phanthu-chmphu-nkhrinthr/1298619565.jpg"}
+},{
+	"id" : "14",
+	"question" : "ดอกไม้ใดที่เป็นสัญลักษณ์ของความอุดมสมบูรณ์ และยังให้พลังงานบริสุทธิ์ สมบูรณ์แบบ ละเอียดอ่อน ให้ความรู้สึกถึงความงามที่น่าชื่นชม",
+	"choice": {"1" : "กล้วยไม้","2" : "เบญมาศ", "3": "โบตั๋น" ,"4":"ดอกบัว"},
+	"correct" : "1",
+	"pic" : {"1" : "https://dh1muyqdu88ie.cloudfront.net/wp-content/uploads/2017/05/04124205/Cattleya-orchid.jpg",
+			"2" : "https://qph.ec.quoracdn.net/main-qimg-422c4cdf20046bb669b13c69e68ea7ad-c", 
+			"3": "http://www.kaewclay.com/images/catalog_pro_1345711422/2003719_212234075_2.jpg" ,
+			"4":"http://4.bp.blogspot.com/-JAdnSCBUjjw/Ty4Yg1_LJ8I/AAAAAAAAAHQ/56yMJ_F8Pa0/s1600/yellow006k.jpg"}
+},
+{
+	"id" : "15",
+	"question" : "ดอกไม้ใดที่ให้ความรู้สึกของการช่วยเยียวยาจิตใจ และอารมณ์ได้เป็นอย่างดี เป็นสัญลักษณ์ของความจริงใจ ให้พลังงานบริสุทธิ์ที่อ่อนโยน มีความสุข",
+	"choice": {"1" : "กล้วยไม้","2" : "เบญมาศ", "3": "โบตั๋น" ,"4":"ดอกบัว"},
+	"correct" : "3",
+	"pic" : {"1" : "https://dh1muyqdu88ie.cloudfront.net/wp-content/uploads/2017/05/04124205/Cattleya-orchid.jpg",
+			"2" : "https://qph.ec.quoracdn.net/main-qimg-422c4cdf20046bb669b13c69e68ea7ad-c", 
+			"3": "http://www.kaewclay.com/images/catalog_pro_1345711422/2003719_212234075_2.jpg" ,
+			"4":"http://4.bp.blogspot.com/-JAdnSCBUjjw/Ty4Yg1_LJ8I/AAAAAAAAAHQ/56yMJ_F8Pa0/s1600/yellow006k.jpg"}
+},
+{
+	"id" : "16",
+	"question" : "ดอกไม้ใดเป็นสัญลักษณ์ของความบริสุทธิ์ สมบูรณ์ มีจิตวิญญาณ แสดงออกถึงความกลมกลืน สวยงาม และเป็นธรรมชาติ",
+	"choice": {"1" : "กล้วยไม้","2" : "เบญมาศ", "3": "โบตั๋น" ,"4":"ดอกบัว"},
+	"correct" : "4",
+	"pic" : {"1" : "https://dh1muyqdu88ie.cloudfront.net/wp-content/uploads/2017/05/04124205/Cattleya-orchid.jpg",
+			"2" : "https://qph.ec.quoracdn.net/main-qimg-422c4cdf20046bb669b13c69e68ea7ad-c", 
+			"3": "http://www.kaewclay.com/images/catalog_pro_1345711422/2003719_212234075_2.jpg" ,
+			"4":"http://4.bp.blogspot.com/-JAdnSCBUjjw/Ty4Yg1_LJ8I/AAAAAAAAAHQ/56yMJ_F8Pa0/s1600/yellow006k.jpg"}
+},
+{
+	"id" : "17",
+	"question" : "ดอกไม้ใดเป็นสัญลักษณ์ของการนำมาซึ่งพลังงานของความสุข ความสนุกสนาน เป็นตัวแทนของดวงอาทิตย์ เป็นดอกไม้แห่งโชคดี",
+	"choice": {"1" : "ทานตะวัน","2" : "เบญมาศ", "3": "ซากุระ" ,"4":"กล้วยไม้"},
+	"correct" : "2",
+	"pic" : {"1" : "http://img.painaidii.com/images/20171107_3_1510040924_157793.jpg",
+			"2" : "https://qph.ec.quoracdn.net/main-qimg-422c4cdf20046bb669b13c69e68ea7ad-c", 
+			"3": "http://www.womjapan.com/wp-content/uploads/2017/04/149320347659007a141d921.jpg" ,
+			"4":"https://dh1muyqdu88ie.cloudfront.net/wp-content/uploads/2017/05/04124205/Cattleya-orchid.jpg"}
+},
+{
+	"id" : "18",
+	"question" : "ดอกไม้ใดเป็นสัญลักษณ์ของกำลังใจ ความสดชื่น ความโชคดีในเรื่องการงาน",
+	"choice": {"1" : "ทานตะวัน","2" : "เบญมาศ", "3": "นาซิสซัส" ,"4":"ไลแลค"},
+	"correct" : "3",
+	"pic" : {"1" : "http://img.painaidii.com/images/20171107_3_1510040924_157793.jpg",
+			"2" : "https://qph.ec.quoracdn.net/main-qimg-422c4cdf20046bb669b13c69e68ea7ad-c", 
+			"3": "http://2.bp.blogspot.com/-ewTGckf9GJE/TzOtBvCcJhI/AAAAAAAAAVI/Z7tURUhTO5Y/s1600/1_display.jpg" ,
+			"4":"https://cache.gmo2.sistacafe.com/images/uploads/content_image/image/173763/1470209903-lilacs_2582962b.jpg"}
+},
+{
+	"id" : "19",
+	"question" : "ดอกไม้ใดเป็นราชินีแห่งดอกไม้ ในทุกวัฒนธรรม",
+	"choice": {"1" : "กล้วยไม้","2" : "กุหลาบ", "3": "ซากุระ " ,"4":"ดอกบัว"},
+	"correct" : "2",
+	"pic" : {"1" : "https://dh1muyqdu88ie.cloudfront.net/wp-content/uploads/2017/05/04124205/Cattleya-orchid.jpg",
+			"2" : "http://fxhaorui.com/wp-content/uploads/2016/11/koordinerede-kontrolaktioner-p-kant-med-loven-29retssikkerhed.jpg", 
+			"3": "http://www.womjapan.com/wp-content/uploads/2017/04/149320347659007a141d921.jpg" ,
+			"4":"http://4.bp.blogspot.com/-JAdnSCBUjjw/Ty4Yg1_LJ8I/AAAAAAAAAHQ/56yMJ_F8Pa0/s1600/yellow006k.jpg"}
+},
+{
+	"id" : "20",
+	"question" : "ดอกไม้ใดที่ในวัฒนธรรมจีนถือเป็นเครื่องหมายของความอ่อนน้อมถ่อมตน เป็นสัญลักษณ์ของความอดทน ความสุข ความหวัง",
+	"choice": {"1" : "ทานตะวัน","2" : "เบญมาศ", "3": "นาซิสซัส " ,"4":"ไลแลค"},
+	"correct" : "4",
+	"pic" : {"1" : "http://img.painaidii.com/images/20171107_3_1510040924_157793.jpg",
+			"2" : "https://qph.ec.quoracdn.net/main-qimg-422c4cdf20046bb669b13c69e68ea7ad-c", 
+			"3": "http://2.bp.blogspot.com/-ewTGckf9GJE/TzOtBvCcJhI/AAAAAAAAAVI/Z7tURUhTO5Y/s1600/1_display.jpg" ,
+			"4":"https://cache.gmo2.sistacafe.com/images/uploads/content_image/image/173763/1470209903-lilacs_2582962b.jpg"}
+},
+{
+	"id" : "21",
+	"question" : "ดอกไม้ใดเป็นสัญลักษณ์ความสดชื่น ความหวัง และความสุข บอกถึงการสิ้นสุดฤดูหนาวก้าวสู่ฤดูใบไม้ผลิ",
+	"choice": {"1" : "ทานตะวัน","2" : "เบญมาศ", "3": "ซากุระ" ,"4":"กล้วยไม้"},
+	"correct" : "3",
+	"pic" : {"1" : "http://img.painaidii.com/images/20171107_3_1510040924_157793.jpg",
+			"2" : "https://qph.ec.quoracdn.net/main-qimg-422c4cdf20046bb669b13c69e68ea7ad-c", 
+			"3": "http://www.womjapan.com/wp-content/uploads/2017/04/149320347659007a141d921.jpg" ,
+			"4":"https://dh1muyqdu88ie.cloudfront.net/wp-content/uploads/2017/05/04124205/Cattleya-orchid.jpg"}
+},
+{
+	"id" : "22",
+	"question" : "กุหลาบสีใดเป็นเครื่องหมายของความรัก และการแต่งงาน",
+	"choice": {"1" : "ชมพู และแดง ","2" : "เหลือง และแดง", "3": "สัม และแดง" ,"4":"พีช และแดง"},
+	"correct" : "1",
+	"pic" : {"1" : "http://tajonline.tolshop.com/v1/product_images/fga66_large.jpg",
+			"2" : "https://images.homedepot-static.com/productImages/91cb99ae-0fbc-4a13-8726-2a5d6eed6ef4/svn/globalrose-flower-bouquets-50-roses-25-yellow-25-red-64_1000.jpg", 
+			"3": "https://www.shadesofbloom.com/wp-content/uploads/2017/11/large-luxury-hatbox.jpg" ,
+			"4":"http://www.debbiecoflowers.com/images/NaturalTouchBouquetApricotRedRoses2r.JPG"}
+},
+{
+	"id" : "23",
+	"question" : "กุหลาบสีใดหมายถึงความสบาย และมั่นคง",
+	"choice": {"1" : "ชมพู","2" : "เหลือง", "3": "ขาว" ,"4":"พืช"},
+	"correct" : "4",
+	"pic" : {"1" : "http://s1.1zoom.me/big3/416/341335-sepik.jpg",
+			"2" : "http://www.rosenpetalsworld.com/wp-content/uploads/2017/09/fr-ye-050.jpg", 
+			"3": "https://wallpaperscraft.com/image/rose_bouquet_white_tenderness_65219_1700x1140.jpg" ,
+			"4":"https://www.floweradvisor.com.au/images/peach-roses-delivery-fa11178-12-peach-roses-hand-bouquet.jpg"}
+},
+{
+	"id" : "24",
+	"question" : "กุหลาบสีใดเป็นสัญลักษณ์ของการนำมาซึ่งความหวัง",
+	"choice": {"1" : "ชมพู","2" : "เหลือง", "3": "ขาว" ,"4":"พืช"},
+	"correct" : "2",
+	"pic" : {"1" : "http://s1.1zoom.me/big3/416/341335-sepik.jpg",
+			"2" : "http://www.rosenpetalsworld.com/wp-content/uploads/2017/09/fr-ye-050.jpg", 
+			"3": "https://wallpaperscraft.com/image/rose_bouquet_white_tenderness_65219_1700x1140.jpg" ,
+			"4":"https://www.floweradvisor.com.au/images/peach-roses-delivery-fa11178-12-peach-roses-hand-bouquet.jpg"}
+},
+{
+	
+	"id" : "25",
+	"question" : "กุหลาบสีใดสะท้อนความในใจของผู้ให้ถึงผู้รับว่า “ฉันรักเธอด้วยใจบริสุทธิ์ ไม่หวังสิ่งใดตอบแทน”",
+	"choice": {"1" : "ชมพู","2" : "เหลือง", "3": "ขาว" ,"4":"พืช"},
+	"correct" : "3",
+	"pic" : {"1" : "http://s1.1zoom.me/big3/416/341335-sepik.jpg",
+			"2" : "http://www.rosenpetalsworld.com/wp-content/uploads/2017/09/fr-ye-050.jpg", 
+			"3": "https://wallpaperscraft.com/image/rose_bouquet_white_tenderness_65219_1700x1140.jpg" ,
+			"4":"https://www.floweradvisor.com.au/images/peach-roses-delivery-fa11178-12-peach-roses-hand-bouquet.jpg"}
+},
+{
+	"id" : "26",
+	"question" : "กุหลาบสีใดสะท้อนความในใจของผู้ให้ถึงผู้รับว่า “ฉันรักเธอเข้าแล้ว”",
+	"choice": {"1" : "ชมพู","2" : "แดง", "3": "บานเย็น " ,"4":"พีช"},
+	"correct" : "2",
+	"pic" : {"1" : "http://s1.1zoom.me/big3/416/341335-sepik.jpg",
+			"2" : "http://www.dhammajak.net/board/files/dsc_2792_100.jpg", 
+			"3": "http://absfreepic.com/absolutely_free_photos/thumb_photos/beautiful-rose-bouquet-3264x2448_62177.jpg" ,
+			"4":"https://www.floweradvisor.com.au/images/peach-roses-delivery-fa11178-12-peach-roses-hand-bouquet.jpg"}
+},
+{
+	"id" : "27",
+	"question" : "กุหลาบสีใดสะท้อนความในใจของผู้ให้ถึงผู้รับว่า “เธอช่วยสวยเหลือเกิน”",
+	"choice": {"1" : "ชมพู","2" : "แดง", "3": "บานเย็น " ,"4":"พีช"},
+	"correct" : "4",
+	"pic" : {"1" : "http://s1.1zoom.me/big3/416/341335-sepik.jpg",
+			"2" : "http://www.dhammajak.net/board/files/dsc_2792_100.jpg", 
+			"3": "http://absfreepic.com/absolutely_free_photos/thumb_photos/beautiful-rose-bouquet-3264x2448_62177.jpg" ,
+			"4":"http://4.bp.blogspot.com/-JAdnSCBUjjw/Ty4Yg1_LJ8I/AAAAAAAAAHQ/56yMJ_F8Pa0/s1600/yellow006k.jpg"}
+},
+{
+	"id" : "28",
+	"question" : "กุหลาบสีใดสะท้อนความในใจของผู้ให้ถึงผู้รับว่า “เธองดงามและอ่อนโยน”",
+	"choice": {"1" : "ชมพู","2" : "เหลือง", "3": "ขาว" ,"4":"พืช"},
+	"correct" : "1",
+	"pic" : {"1" : "http://s1.1zoom.me/big3/416/341335-sepik.jpg",
+			"2" : "http://www.rosenpetalsworld.com/wp-content/uploads/2017/09/fr-ye-050.jpg", 
+			"3": "https://wallpaperscraft.com/image/rose_bouquet_white_tenderness_65219_1700x1140.jpg" ,
+			"4":"https://www.floweradvisor.com.au/images/peach-roses-delivery-fa11178-12-peach-roses-hand-bouquet.jpg"}
+},
+{
+	"id" : "29",
+	"question" : "กุหลาบสีใดสะท้อนความในใจของผู้ให้ถึงผู้รับว่า “สองเราเป็นหนึ่งเดียวกัน”",
+	"choice": {"1" : "แดง และขาวรวมกัน","2" : "แดง และเหลืองรวมกัน", "3": "แดง และชมพูรวมกัน " ,"4":"แดง และพึชรวมกัน"},
+	"correct" : "1",
+	"pic" : {"1" : "http://fwmail.teenee.com/strange/img1/m123663.jpg",
+			"2" : "https://images.homedepot-static.com/productImages/91cb99ae-0fbc-4a13-8726-2a5d6eed6ef4/svn/globalrose-flower-bouquets-50-roses-25-yellow-25-red-64_1000.jpg", 
+			"3": "http://tajonline.tolshop.com/v1/product_images/fga66_large.jpg" ,
+			"4":"http://www.debbiecoflowers.com/images/NaturalTouchBouquetApricotRedRoses2r.JPG"}
+}
+	]
