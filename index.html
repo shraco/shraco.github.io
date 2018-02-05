@@ -109,12 +109,11 @@
 		var check = false;
 		var gameStart = false;
 		var interval = setInterval(function() {
-    		counter = counter-1;
     		timeUse++;
-    		$('#time').html(counter);
+    		$('#time').html(counter--);
     		if (counter == 0 && gameStart == true) {
-
-        		counter =10;
+        		counter = 9;
+        		
         		if(count < qamount-1){
         			start();
         			count++;
@@ -131,6 +130,7 @@
 					$('.Score').html(score+" คะแนน");
 					$('.TimeUse').html("เวลาที่ใช้ : "+timeUse + " วินาที");
         		}
+        	
         		
     		}else if(check == true){
     			check = false;
@@ -209,6 +209,7 @@
 				dataType: 'json',
 				success: function(response){
 						check=true;
+						$('#time').html('10');
 						if(response[arr[count]]['correct'] == ans){
 
 							score += 1;
